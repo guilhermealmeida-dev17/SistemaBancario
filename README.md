@@ -1,27 +1,32 @@
-# 🏦 Sistema Bancário
+# Sistema Bancário em C#
 
-Um sistema bancário via console desenvolvido em C# para fins de estudo e prática de programação orientada a objetos.
+Aplicação de console desenvolvida para praticar lógica de programação e orientação a objetos com C#.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-* Cadastro de novos usuários ( com Número de conta, CPF, Nome e Senha)
-* Gerenciamento de contas bancárias
-* Depósito
-* Saque
-* Transferência
+- Cadastro de contas com nome, CPF e senha.
+- Consulta das contas cadastradas.
+- Acesso à conta por número e senha.
+- Depósitos, saques e transferências entre contas.
+- Consulta do saldo e do extrato.
 
-## 💻 Tecnologias Utilizadas
+## Tecnologias
 
-* C#
-* .NET
-* Visual Studio Community
+- C#
+- .NET Framework 4.7.2
+- Visual Studio Community
 
-## ⚙️ Como executar o projeto
+## Como executar
 
-1. Faça o clone deste repositório:
-   `git clone https://github.com/Almeida17-csharp/SistemaBancario.git`
-2. Abra a pasta do projeto no Visual Studio.
-3. Execute o projeto pressionando `F5` ou clicando no botão de "Iniciar".
+1. Clone o repositório:
 
----
-Desenvolvido por Guilherme.
+   ```bash
+   git clone https://github.com/guilhermealmeida-dev17/SistemaBancario.git
+   ```
+
+2. Abra `Banco.csproj` no Visual Studio.
+3. Execute o projeto com **F5**.
+
+## Escopo do projeto
+
+Este é um exercício de programação. As contas são mantidas apenas em memória e desaparecem quando a aplicação é encerrada. O projeto não usa banco de dados e não deve ser usado para armazenar dados reais.
